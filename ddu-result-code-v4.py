@@ -73,7 +73,7 @@ def find_dob_for_roll(roll_no, semester):
         group_dates = [d for d in all_dates if int(d.split("-")[0]) in group]
 
         with tqdm(total=len(group_dates), desc=f"Roll {roll_no} Progress", leave=False, colour="cyan", bar_format='{l_bar}{bar}| {n_fmt}/{total_fmt} [{elapsed}<{remaining}, {rate_fmt}]') as inner_bar:
-            with ThreadPoolExecutor(max_workers=20) as executor:
+            with ThreadPoolExecutor(max_workers=30) as executor:
                 futures = {executor.submit(try_date, session, roll_no, semester, date): date for date in group_dates}
 
                 for future in as_completed(futures):
