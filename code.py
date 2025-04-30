@@ -100,8 +100,8 @@ async def fetch_for_roll(session, roll_no, semester, priority_groups, month_filt
     roll_pbar.update(1)
 
 async def run_custom_roll_search(roll_numbers, semester, month_filter):
-    priority_groups = [[1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014]]
-    filename = os.path.join(DRIVE_PATH, f"ddu_custom_results5.xlsx")
+    priority_groups = [[2001,2002,2003,2004,2005,2006,2007,2008,2009,2010]]
+    filename = os.path.join(DRIVE_PATH, f"ddu_custom_results.xlsx")
 
     if os.path.exists(filename):
         existing_df = pd.read_excel(filename)
@@ -144,7 +144,3 @@ def run_custom_main():
 run_custom_main()
 
 #2515075160
-
-#2515075160052, 2515075160087, 2515075160106, 2515075160115, 2515075160121, 2515075160136, 2515075160153, 2515075160154, 2515075160208, 2515075160225, 2515075160249, 2515075160269, 2515075160286, 2515075160291, 2515075160294, 2515075160302, 2515075160325, 2515075160328, 2515075160336, 2515075160339, 2515075160343, 2515075160344, 2515075160352, 2515075160354, 2515075160360, 2515075160396
-
-#1994 to 2014 (10 year old to 30 year old as of 2024)
