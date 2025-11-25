@@ -11,7 +11,6 @@
 
 **ddu-result-code** is a library/repository maintained by [@vaibhavgeometer](https://github.com/vaibhavgeometer)
 
-_Describe here: project goal and what makes it useful or unique. If this project is used with specific frameworks or tools, mention that._
 
 ---
 
