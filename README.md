@@ -30,17 +30,14 @@ Clone the repository:
 git clone https://github.com/vaibhavgeometer/ddu-result-code.git
 ```
 
-_If you distribute as a package, add npm/pip/cargo/etc commands here._
 
 ---
 
 ## Usage
 
-_Include a basic usage example or code snippet. Replace with real code when available._
 
 
 
-Or for your specific language/environment:
 
 
 ```
